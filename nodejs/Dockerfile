@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:groovy-20210325
 MAINTAINER Kimbro Staken
 
 RUN apt-get install -y software-properties-common python
