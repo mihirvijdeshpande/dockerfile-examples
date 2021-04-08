@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:rolling
 MAINTAINER Kimbro Staken
 
 RUN apt-get install -y python-software-properties python
