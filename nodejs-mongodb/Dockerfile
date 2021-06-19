@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:groovy-20210614
 MAINTAINER Kimbro Staken 
 
 RUN apt-get install -y python-software-properties python python-setuptools ruby rubygems
