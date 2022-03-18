@@ -4,7 +4,7 @@
 #
 # Currently installs couchdb 1.3.1
 
-FROM ubuntu
+FROM ubuntu:20.04
 MAINTAINER Kimbro Staken
 
 RUN echo "deb http://us.archive.ubuntu.com/ubuntu/ precise universe" >> /etc/apt/sources.list
