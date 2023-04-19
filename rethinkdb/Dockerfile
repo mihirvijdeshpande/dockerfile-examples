@@ -26,7 +26,7 @@
 #    Just keep in mind that's giving you a shell in a new instance of the image not 
 #    connecting you to an already running container.
 
-FROM ubuntu
+FROM ubuntu:kinetic
 MAINTAINER Kimbro Staken
 
 RUN echo "0.2" > /version
