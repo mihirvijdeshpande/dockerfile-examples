@@ -1,6 +1,6 @@
 # Install a more up to date mongodb than what is included in the default ubuntu repositories.
 
-FROM ubuntu
+FROM ubuntu:22.10
 MAINTAINER Kimbro Staken
 
 RUN apt-key adv --keyserver keyserver.ubuntu.com --recv 7F0CEB10
